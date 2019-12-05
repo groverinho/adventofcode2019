@@ -45,6 +45,9 @@ public class day1 {
 		int sum = 0;
 		while ((st = br.readLine()) != null) {
 			int m = Integer.parseInt(st);
+			// first part
+			// int subTotal = fuelForMass(m);
+			// second part
 			int subTotal = adjuts(fuelForMass(m));
 			sum += subTotal;
 
